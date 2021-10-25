@@ -1,0 +1,172 @@
+.blogHeader {
+    background-image: url("../assets/blog-1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.blog {
+    padding-top: 150px;
+}
+
+.pineapple {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.pineappleContent p {
+    padding: 20px 0px;
+}
+
+.tag {
+    border-top: 1px solid #999999;
+    padding: 20px 0px;
+}
+
+.tag span {
+    font-weight: bolder;
+}
+
+.share {
+    display: flex;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 20px;
+}
+
+ .share i {
+    padding: 0px 15px;
+ }
+
+ .testimonialMain {
+     width: 75%;
+     margin: 0 auto;
+     display: flex;
+     padding: 50px 0px;
+     border-bottom: 1px solid #999999;
+ }
+
+ .testimonialText {
+     background-color: #cbcbcb;
+     margin-left: 25px;
+     padding: 25px;
+ }
+
+ .testimonialText p:nth-of-type(1) {
+     font-weight: bolder;
+     padding-bottom: 10px;
+ }
+ 
+ .relatedPost {
+    width: 75%;
+    margin: 0 auto;
+ }
+
+ .relatedPost p {
+     padding: 25px 0px;
+     font-weight: bolder;
+ }
+
+ .blogFlex {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 1px solid #999999;
+ }
+
+ figure {
+     width: calc(95% / 3);
+
+ }
+
+ figure img {
+     width: 100%;
+     object-fit: contain;
+     padding-bottom: 20px;
+ }
+
+ figcaption:nth-of-type(1) {
+    font-weight: bolder;
+}
+
+figcaption:nth-of-type(2) {
+    padding-bottom: 20px;
+}
+
+.commentMain {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.commentHeader {
+    padding: 25px 0px;
+    font-weight: bolder;
+}
+
+.comment {
+    display: flex;
+}
+
+.commentText {
+    background-color: #b5b4b4;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.commentText p:nth-of-type(2) {
+    padding: 10px 0px;
+}
+
+.commentImg img {
+    object-fit: contain;
+    padding-right: 10px;
+}
+
+.commentForm {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.commentForm p:nth-of-type(1) {
+    padding-top: 25px;
+    font-weight: bolder;
+}
+
+.blogForm {
+    width: 100%;
+    // text-align: center;
+    padding: 10px 0px 100px 0px;
+}
+
+.blogName, .blogEmail, .blogWebsite  {
+    width: calc(100% / 3 - 16px);
+    border: #999999 1px solid;
+    padding: 5px 10px;
+}
+
+.blogEmail {
+    margin: 0px 20px;
+}
+
+.blogTextArea {
+    width: 100%;
+    height: 150px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: #999999 1px solid;
+}
+
+.blogForm button {
+    background-color: #64A604;
+    color: #F6F6F6;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 25px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+
+
+

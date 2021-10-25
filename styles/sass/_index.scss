@@ -1,0 +1,248 @@
+.indexHeader {
+    background-image: url("../assets/home-1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper {
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.wrapperAlt {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapperFullBleed {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headerFlex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+
+.topNav {
+        .fa-bars {
+            display: none;
+        }   ul {
+                display: flex;
+            } li {
+                    margin: 0px 10px;
+    }
+}
+
+
+// END OF HEADER STYLING
+
+// START OF ABOUT STYLING
+
+.fullBleedTop {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fullBleedTopText {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullBleedTopText div {
+    text-align: center;
+    width: 80%;
+}
+
+.fullBleedTopText p {
+    padding: 40px 0px;
+}
+
+.fullBleedTopText button {
+    background-color: #64A604;
+    color: #F6F6F6;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 30px;
+}
+
+.cabbageImgContainer {
+    width: 50%;
+    height: 50%;
+}
+
+.cabbageImgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.fullBleedBottom {
+    display: flex;
+    justify-content: space-evenly;
+    background: #F6F6F6; 
+}
+
+.tacoImgContainer {
+    width: 50%;
+    height: 50%;
+}
+
+.tacoImgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+.fullBleedBottomText {
+    width: calc(50% - 100px);
+    height: calc(50% - 170px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 85px 20px 85px 80px;
+}
+
+.aboutTextBox {
+    display: flex;
+}
+
+.aboutTextBox h3 {
+    padding-top: 10px;
+}
+
+.aboutTextBox i {
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.aboutTextBox p {
+    padding: 5px 0px;
+}
+
+.imgTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+// END OF ABOUT STYLING
+
+// START OF RECIPE STYLING
+
+.recipeImgBox {
+   margin: auto;
+   width: 40%;
+   padding-top: 20%;
+   position: relative;
+}
+
+.imgLogo {
+    position: absolute;
+    bottom: 38%;
+    right: -15%;
+}
+
+.recipeImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.recipeImg img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.recipeText {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    padding: 50px 0px;
+}
+
+.recipeText p {
+    margin: 40px 0px;
+}
+
+// START OF NUTRITION STYLING
+
+.nutritionGallery {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nutritionGallery img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+// START OF SHOP STYLING
+
+.shop {
+    background: #DDED9A;
+}
+
+.shopTextBox {
+    padding: 150px 0px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.shopTextBox div {
+    display: flex;
+    position: relative;
+}
+
+.quoteLeft {
+    text-align: left;
+    color: #F6F6F6;
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+.shopTextBox p {
+    margin-top: 75px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+
+.quoteRight {
+    text-align: right;
+    color: #F6F6F6;
+    font-size: 30px;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+
+.chevronBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #F6F6F6;
+}
+
+.fa-chevron-left {
+    padding: 0px 15px;
+}
+
+.fa-chevron-right {
+    padding: 0px 15px;
+}

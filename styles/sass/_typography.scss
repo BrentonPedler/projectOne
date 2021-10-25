@@ -1,0 +1,71 @@
+@mixin headerSize ($sizeValue) {
+    font-size: $sizeValue;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px;
+    letter-spacing: 1.1px;
+}
+
+@mixin bodySize ($sizeValue) {
+    font-family: 'Lora', serif;
+    font-size: $sizeValue;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #2e2e2e;
+    
+}
+
+h1 {
+   @include headerSize(46px)
+    
+}
+
+h2 {
+   @include headerSize(30px) 
+}
+
+h2 span {
+    border-bottom: 3px #64A604 solid;
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #64A604;
+    font-size: 25px;
+    letter-spacing: 1.1px;   
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    color: #F6F6F6;
+    font-size: 20px;
+    letter-spacing: 1.1px; 
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+
+} 
+
+p {
+    @include bodySize(14px);
+}
+
+figcaption {
+    @include bodySize(14px);
+}
+
+input, textarea {
+    @include bodySize(14px);
+}
+
+
+

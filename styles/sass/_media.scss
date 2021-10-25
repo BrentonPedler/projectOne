@@ -1,0 +1,214 @@
+@media (max-width: 1200px) {
+    .fullBleedBottomText {
+        width: calc(50% - 40px);
+        height: calc(50% - 40px);
+        margin: 20px;
+    }
+    .imgLogo {
+        bottom: 160px;
+        left: 300px;
+    }
+
+}
+
+@media (max-width: 965px) {
+    .fullBleedTop {
+        flex-direction: column;
+    }
+    .fullBleedBottom {
+        flex-direction: column;
+    }
+    .fullBleedTopText {
+        width: 100%;
+        padding: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .cabbageImgContainer {
+        width: 100%;
+    }
+    .tacoImgContainer {
+        width: 100%;
+    }
+    .fullBleedBottomText {
+        width: calc(100% - 100px);
+        height: calc(100% - 90px);
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 85px 20px 0px 80px;
+    }
+    .imgLogo {
+        bottom: 110px;
+        left: 225px;
+    }
+    .shopTextBox {
+        width: 100%;
+    }
+    .footerAddress {
+        width: 50%;
+    }
+    .footerPosts {
+        width: 30%;
+    }
+    .footerSubscribe {
+        width: 50%;
+        padding: 0;
+        margin-right: 38%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .topNav {
+        .fa-bars {
+            display: inline-block;
+            font-size: 50px;
+            margin-right: 50px;
+        }   ul {
+                display: none;
+            }
+}
+    .topNav:hover {
+        .fa-bars {
+            display: inline-block;
+            font-size: 50px;
+            margin-right: 50px;
+            position: relative;
+        }   ul {
+                display: inline-block;
+                position: absolute;
+                overflow: hidden;
+                right: 50px;
+                top: 90px;
+                text-align: center;
+                } li {
+                    background-color: #2e2e2e;
+                    padding: 10px;
+                    
+                    } a {
+                        color: #f6f6f6;
+                        padding: 10px;
+                        } a:hover {
+                            color: #64a604;
+                        }
+}
+    .imgLogo {
+        bottom: 100px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .fullBleedTopText {
+        width: 100%;
+    }
+    .fullBleedTopText div {
+        text-align: center;
+        width: 100%;
+    }
+    .fullBleedBottomText {
+        width: 90%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: auto;
+        padding: 50px 0px;
+    }
+    .imgLogo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .fullBleedTopText {
+        padding: 50px 10px;
+    }
+    .imgLogo {
+        bottom: 65px;
+        left: 140px;
+    }
+    .recipeText {
+        width: 100%;
+    }
+    .nutritionGallery {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .shopTextBox {
+        padding: 75px 0px;
+        width: 100%;
+    }
+    .quoteLeft {
+        right: 5px;
+    }
+    .quoteRight {
+        top: 250px;
+        left: 5px;
+    }
+    .footerAddress {
+        width: 75%;
+    }
+    .footerPosts {
+        width: 75%;
+    }
+    .footerSubscribe {
+        width: 75%;
+        padding-left: 0px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 30px;
+    }
+    .topNav {
+        .fa-bars {
+            display: inline-block;
+            font-size: 40px;
+            margin-right: 10px;
+        }   ul {
+                display: none;
+            }
+    }
+    .topNav:hover {
+        .fa-bars {
+            display: inline-block;
+            font-size: 40px;
+            margin-right: 10px;
+            position: relative;
+        }   ul {
+                display: inline-block;
+                position: absolute;
+                overflow: hidden;
+                right: 10px;
+                top: 80px;
+                text-align: center;
+                } li {
+                    background-color: #2e2e2e;
+                    padding: 10px;
+                    
+                    } a {
+                        color: #f6f6f6;
+                        padding: 10px;
+                        } a:hover {
+                            color: #64a604;
+                        }
+    }
+    h2 {
+        line-height: 50px;
+    }
+    h2 span {
+        padding-bottom: 5px;
+    }
+    .fullBleedBottomText {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .recipeImgBox {
+        width: 100%;
+    }
+
+}

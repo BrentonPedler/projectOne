@@ -1,0 +1,109 @@
+footer {
+    background-color: #2e2e2e;
+    color: #999999;
+}
+
+footer p {
+    color: #999999;
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+}
+
+.footerFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+.footerAddress {
+    width: 20%;
+}
+
+.footerAddress p:nth-of-type(1) {
+    border-bottom: 1px solid #999999;
+    padding: 15px 0px;
+}
+
+.footerAddress p:nth-of-type(2) {
+    padding-top: 15px;
+}
+
+.footerAddress p:nth-of-type(3) {
+    border-bottom: 1px solid #999999;
+    padding-bottom: 15px;
+}
+
+.footerAddress p:nth-of-type(4) {
+    border-bottom: 1px solid #999999;
+    padding: 15px 0px;
+}
+
+.footerAddress p:nth-of-type(5) {
+    padding: 15px 0px;
+}
+
+.footerPosts p {
+    border-bottom: 1px solid #999999;
+    padding: 10px 0px;
+}
+
+.footerPosts p:nth-of-type(6) {
+    border: none;
+}
+
+.footerSubscribe {
+    width: 25%;
+    padding-left: 50px;
+}
+
+.footerSubscribe p {
+    padding: 20px 0px;
+}
+
+.inputBox {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.footerEmail {
+    padding: 5px 25px;
+    border: none;
+    background: #999999;
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+}
+
+.footerSubscribe button {
+    background-color: #64A604;
+    padding: 10px 15px;
+    border: none;
+}
+
+.fa-arrow-right {
+    color: #f6f6f6;
+}
+
+.socialMedia {
+    padding-top: 20px;
+    border-top: 1px solid #999999;
+    color:#f6f6f6;
+    letter-spacing: 10px;
+}
+
+.copyright {
+    background-color: #1f1d1d;
+}
+
+.copyright p {
+    margin-left: 12%;
+    padding: 10px 0px;
+}
+
+.copyright span {
+    color: #64A604;
+}
