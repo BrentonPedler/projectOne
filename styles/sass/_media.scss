@@ -36,10 +36,14 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         margin: 85px 20px 0px 80px;
+        order: -1;
     }
     .imgLogo {
-        bottom: 110px;
-        left: 225px;
+        bottom: 210px;
+        left: 390px;
+    }
+    .recipeImgBox {
+        width: 60%;
     }
     .shopTextBox {
         width: 100%;
@@ -54,6 +58,40 @@
         width: 50%;
         padding: 0;
         margin-right: 38%;
+    }
+}
+
+@media (max-width: 940px) {
+    .imgLogo {
+        bottom: 200px;
+    }
+    .fullBleedBottomText {
+        order: -1;
+    }
+    .contactDetails {
+        width: 60%;
+    }
+    .contactBox1, .contactBox2, .contactBox3 {
+        width: 70%;
+    }
+    .contactForm {
+        width: 100%;
+        margin-left: 10%;
+    }
+    .pineapple {
+        width: 90%;
+    }
+    .testimonialMain {
+        width: 90%;
+    }
+    .relatedPost {
+        width: 90%;
+    }
+    .commentMain {
+        width: 90%;
+    }
+    .commentForm {
+        width: 90%;
     }
 }
 
@@ -93,7 +131,22 @@
                         }
 }
     .imgLogo {
-        bottom: 100px;
+        bottom: 185px;
+    }
+    .pineapple {
+        width: 100%;
+    }
+    .testimonialMain {
+        width: 100%;
+    }
+    .relatedPost {
+        width: 100%;
+    }
+    .commentMain {
+        width: 100%;
+    }
+    .commentForm {
+        width: 100%;
     }
     
 }
@@ -114,9 +167,15 @@
         grid-template-rows: 1fr 1fr 1fr;
         margin: auto;
         padding: 50px 0px;
+        order: -1;
     }
     .imgLogo {
-        width: 50%;
+        width: 40%;
+        bottom: 210px;
+    }
+    .recipeImgBox {
+        width: 75%;
+        padding-top: 225px;
     }
 }
 
@@ -125,8 +184,12 @@
         padding: 50px 10px;
     }
     .imgLogo {
-        bottom: 65px;
-        left: 140px;
+        bottom: 140px;
+        left: 260px;
+    }
+    .recipeImgBox {
+        width: 80%;
+        padding-top: 125px;
     }
     .recipeText {
         width: 100%;
@@ -156,6 +219,68 @@
     .footerSubscribe {
         width: 75%;
         padding-left: 0px;
+        margin: 0;
+    }
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contactForm {
+        width: 80%;
+    }
+    .contactName, .contactEmail {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0px;
+    }
+    .contactSubject {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .contactTextArea {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .contactDetails {
+        width: 100%;
+        padding-left: 5%;
+    }
+    .blog {
+        padding-top: 75px;
+    }
+    .testimonialMain {
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonialImgBox {
+        padding: 10px 0px;
+        width: 50%;
+        border-radius: 10px;
+    }
+    .testimonialImgBox img {
+        object-fit: cover;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .testimonialText {
+        width: 80%;
+        margin: 0;
+        border-radius: 10px;
+    }
+    .blogFlex {
+        flex-direction: column;
+    }
+    figure {
+        width: 100%;
+    }
+    .blogName, .blogEmail, .blogWebsite {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .blogTextArea {
+        width: 100%;
+    }
+    .blogEmail {
         margin: 0;
     }
 }
@@ -210,5 +335,24 @@
     .recipeImgBox {
         width: 100%;
     }
+    .imgLogo {
+        bottom: 120px;
+        left: 100px;
+    }
+    .quoteRight {
+        top: 420px;
+        left: 5px;
+    }
+    .inputBox {
+        flex-direction: column;
+    }
+    .pineapple div h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .testimonialText {
+        width: 100%;
+    }
+
 
 }

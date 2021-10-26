@@ -2,8 +2,8 @@
     background-image: url("../assets/contact-1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    height: 60vh;
+    background-size: cover;
+    height: 100vh;
 }
 
 .contact {
@@ -71,6 +71,7 @@
 .contactDetails {
     background: #F6F6F6;
     width: 40%;
+    height: 100%;
 }
 
 .contactBox1 {
