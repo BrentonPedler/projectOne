@@ -24,10 +24,6 @@
     padding: 20px 0px;
 }
 
-.tag span {
-    font-weight: bolder;
-}
-
 .share {
     display: flex;
     border-bottom: 1px solid #999999;
@@ -47,7 +43,7 @@
  }
 
  .testimonialText {
-     background-color: #cbcbcb;
+     background-color: #F6F6F6;
      margin-left: 25px;
      padding: 25px;
  }
@@ -55,6 +51,7 @@
  .testimonialText p:nth-of-type(1) {
      font-weight: bolder;
      padding-bottom: 10px;
+     font-family: $primaryText;
  }
  
  .relatedPost {
@@ -65,6 +62,7 @@
  .relatedPost p {
      padding: 25px 0px;
      font-weight: bolder;
+     font-family: $primaryText;
  }
 
  .blogFlex {
@@ -87,6 +85,7 @@
 
  figcaption:nth-of-type(1) {
     font-weight: bolder;
+    font-family: $primaryText;
 }
 
 figcaption:nth-of-type(2) {
@@ -101,6 +100,10 @@ figcaption:nth-of-type(2) {
 .commentHeader {
     padding: 25px 0px;
     font-weight: bolder;
+
+    p {
+        font-family: $primaryText;
+    }
 }
 
 .comment {
@@ -111,6 +114,8 @@ figcaption:nth-of-type(2) {
     background-color: #b5b4b4;
     margin-bottom: 20px;
     padding: 10px;
+
+
 }
 
 .commentText p:nth-of-type(2) {
@@ -132,6 +137,7 @@ figcaption:nth-of-type(2) {
     font-weight: bolder;
 }
 
+
 .blogForm {
     width: 100%;
     // text-align: center;
@@ -141,6 +147,7 @@ figcaption:nth-of-type(2) {
 .blogName, .blogEmail, .blogWebsite  {
     width: calc(100% / 3 - 16px);
     border: #999999 1px solid;
+    border-radius: 2px;
     padding: 5px 10px;
 }
 
@@ -154,13 +161,14 @@ figcaption:nth-of-type(2) {
     padding: 5px 10px;
     margin-top: 10px;
     border: #999999 1px solid;
+    border-radius: 2px;
 }
 
 .blogForm button {
     background-color: #64A604;
     color: #F6F6F6;
     border: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: $primaryText;
     padding: 15px 25px;
     text-align: left;
     margin-top: 10px;

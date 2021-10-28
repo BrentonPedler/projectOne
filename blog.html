@@ -22,9 +22,9 @@
 
 <body>
 
-    <header class="blogHeader">
+    <header class="blogHeader wrapper">
 
-        <div class="wrapper">
+        <!-- <div class="wrapper"> -->
 
             <div class="headerFlex">
 
@@ -33,13 +33,13 @@
                 <nav class="topNav">
                     <i class="fas fa-bars"></i>
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">RECIPES</a></li>
-                        <li><a href="#">NUTRITION</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./index.html">ABOUT</a></li>
+                        <li><a href="./index.html">RECIPES</a></li>
+                        <li><a href="./index.html">NUTRITION</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                        <li><a href="./index.html">SHOP</a></li>
+                        <li><a href="./contact.html">CONTACT</a></li>
                         <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
                         <li><a href="#"><i class="fas fa-search"></i></a></li>
                     </ul>
@@ -51,11 +51,11 @@
 
             </div>
 
-        </div>
+        <!-- </div> -->
 
     </header>
 
-    <section class="blog wrapperAlt">
+    <section class="blog wrapperAlt" id="blog">
 
         <!-- START OF PINEAPPLE CHICKEN ARTICLE -->
 
@@ -93,10 +93,10 @@
             </div>
 
             <div class="tag">
-                <p><span>TAGS:</span> Recipes, Chicken, Pineapple, Mexican</p>
+                <p class="boldText">TAGS: <span>Recipes, Chicken, Pineapple, Mexican</span></p>
             </div>
             <div class="share">
-                <p>SHARE:</p>
+                <p class="boldText">SHARE:</p>
                 <i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i><i class="fab fa-instagram"></i>
             </div>
 
@@ -171,15 +171,12 @@
                     <img src="./assets/blog-6.jpeg" alt="womans face">
                 </div>
                 <div class="commentText">
-                    <strong>
-                        <p>Lucatony Avaro
-                    </strong>- Web Developer</p>
+                        <p class="boldText">Lucatony Avaro
+                    <span>- Web Developer</span></p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates omnis perspiciatis illum iure
                         provident consectetur explicabo ipsam ab, modi, deserunt, praesentium id natus velit repudiandae
                         quos! Corrupti doloremque at culpa!</p>
-                    <strong>
-                        <p>July 12,2015 @ 15 hours ago</p>
-                    </strong>
+                        <p class="boldText">July 12,2015 @ 15 hours ago</p>
                 </div>
             </div>
 
@@ -188,15 +185,12 @@
                     <img src="./assets/blog-7.jpeg" alt="woman in hat">
                 </div>
                 <div class="commentText">
-                    <strong>
-                        <p>Brian Hudson
-                    </strong>- Web Developer</p>
+                        <p class="boldText">Brian Hudson
+                    <span>- Web Developer</span></p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates omnis perspiciatis illum iure
                         provident consectetur explicabo ipsam ab, modi, deserunt, praesentium id natus velit repudiandae
                         quos! Corrupti doloremque at culpa!</p>
-                    <strong>
-                        <p>July 12,2015 @ 15 hours ago</p>
-                    </strong>
+                        <p class="boldText">July 12,2015 @ 15 hours ago</p>
                 </div>
             </div>
 
@@ -208,7 +202,7 @@
 
         <div class="commentForm">
 
-            <p>LEAVE A COMMENT</p>
+            <p class="boldText">LEAVE A COMMENT</p>
             <p>Your email will not be published. Required fields are marked *</p>
 
             <form class="blogForm" action="">
@@ -231,9 +225,7 @@
 
     <!-- START OF FOOTER -->
 
-    <footer>
-
-        <div class="wrapperAlt">
+    <footer class="wrapper">
 
             <div class="footerFlex">
 
@@ -263,7 +255,7 @@
                     <form class="inputBox">
                         <label class="srOnly" for="email">Email</label>
                         <input class="footerEmail" type="email" placeholder="Enter your email">
-                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                        <button type="submit"><i class="fas fa-long-arrow-alt-right"></i></button>
                     </form>
                     <div class="socialMedia">
                         <i class="fab fa-facebook-f"></i>
@@ -276,11 +268,8 @@
 
         </div>
 
-        <div class="copyright wrapperFullBleed">
+        <div class="copyright">
             <p>Copyrights © 2015 by <span>POLAR</span>. All Rights Reserved.</p>
-        </div>
-
-
 
     </footer>
 

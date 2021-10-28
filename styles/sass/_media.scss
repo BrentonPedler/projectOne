@@ -1,8 +1,25 @@
+
+@media (max-width: 1395px) {
+    .fullBleedBottomText {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    
+}
+
 @media (max-width: 1200px) {
     .fullBleedBottomText {
         width: calc(50% - 40px);
         height: calc(50% - 40px);
         margin: 20px;
+
+        h3 {
+            font-size: 15px;
+        }
+
+        p {
+            font-size: 12px;
+        }
     }
     .imgLogo {
         bottom: 160px;
@@ -11,7 +28,7 @@
 
 }
 
-@media (max-width: 965px) {
+@media (max-width: 1142px) {
     .fullBleedTop {
         flex-direction: column;
     }
@@ -37,16 +54,29 @@
         grid-template-rows: 1fr 1fr 1fr;
         margin: 85px 20px 0px 80px;
         order: -1;
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 15px;
+        }
     }
+}
+
+@media (max-width: 965px) {
+    
     .imgLogo {
         bottom: 210px;
         left: 390px;
     }
+
     .recipeImgBox {
         width: 60%;
     }
     .shopTextBox {
-        width: 100%;
+        width: 80%;
     }
     .footerAddress {
         width: 50%;
@@ -106,7 +136,7 @@
                 display: none;
             }
 }
-    .topNav:hover {
+    .topNav:hover, .topNav:focus {
         .fa-bars {
             display: inline-block;
             font-size: 50px;
@@ -122,13 +152,15 @@
                 } li {
                     background-color: #2e2e2e;
                     padding: 10px;
-                    
-                    } a {
-                        color: #f6f6f6;
-                        padding: 10px;
-                        } a:hover {
-                            color: #64a604;
-                        }
+                    color: #64a604;
+                    } li:hover, li:focus{
+                        background-color: #DDED9A;
+                        } a {
+                            color: #f6f6f6;
+                            padding: 10px;
+                            } a:hover, a:focus {
+                                color: #64a604;
+                            }
 }
     .imgLogo {
         bottom: 185px;
@@ -179,7 +211,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 583px) {
     .fullBleedTopText {
         padding: 50px 10px;
     }

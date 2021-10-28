@@ -1,3 +1,8 @@
+$primaryText: 'Raleway', sans-serif;
+$secondaryText: 'Lora', serif;
+
+
+
 @mixin headerSize ($sizeValue) {
     font-size: $sizeValue;
     color: #333333;
@@ -65,6 +70,14 @@ figcaption {
 
 input, textarea {
     @include bodySize(14px);
+}
+
+.boldText {
+    font-family: $primaryText;
+}
+
+p span {
+    font-family: $secondaryText;
 }
 
 

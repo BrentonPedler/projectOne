@@ -278,6 +278,10 @@ figure {
   /* added line */
 }
 
+button {
+  cursor: pointer;
+}
+
 h1 {
   font-size: 46px;
   color: #333333;
@@ -348,6 +352,14 @@ input, textarea {
   color: #2e2e2e;
 }
 
+.boldText {
+  font-family: "Raleway", sans-serif;
+}
+
+p span {
+  font-family: "Lora", serif;
+}
+
 .indexHeader {
   background-image: url("../assets/home-1.jpeg");
   background-repeat: no-repeat;
@@ -358,7 +370,6 @@ input, textarea {
 
 .wrapper {
   max-width: 1440px;
-  width: 95%;
   margin: 0 auto;
 }
 
@@ -382,6 +393,7 @@ input, textarea {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 40px;
+  margin: 0 2.5%;
 }
 
 .topNav .fa-bars {
@@ -394,6 +406,10 @@ input, textarea {
 }
 .topNav li {
   margin: 0px 10px;
+}
+
+.topNav li:hover, .topNav li:focus {
+  color: #64A604;
 }
 
 .fullBleedTop {
@@ -533,6 +549,7 @@ input, textarea {
 
 .recipeImg img {
   width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -555,10 +572,10 @@ input, textarea {
 }
 
 .nutritionGallery img {
-  -o-object-fit: cover;
-     object-fit: cover;
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .shop {
@@ -653,7 +670,7 @@ footer p {
 }
 
 .footerAddress p:nth-of-type(1) {
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #525050;
   padding: 15px 0px;
 }
 
@@ -662,12 +679,12 @@ footer p {
 }
 
 .footerAddress p:nth-of-type(3) {
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #525050;
   padding-bottom: 15px;
 }
 
 .footerAddress p:nth-of-type(4) {
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #525050;
   padding: 15px 0px;
 }
 
@@ -676,7 +693,7 @@ footer p {
 }
 
 .footerPosts p {
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #525050;
   padding: 10px 0px;
 }
 
@@ -716,13 +733,13 @@ footer p {
   border: none;
 }
 
-.fa-arrow-right {
+.fa-long-arrow-alt-right {
   color: #f6f6f6;
 }
 
 .socialMedia {
   padding-top: 20px;
-  border-top: 1px solid #999999;
+  border-top: 1px solid #525050;
   color: #f6f6f6;
   letter-spacing: 10px;
 }
@@ -732,8 +749,9 @@ footer p {
 }
 
 .copyright p {
-  margin-left: 12%;
+  margin-left: 9%;
   padding: 10px 0px;
+  font-family: "Raleway", sans-serif;
 }
 
 .copyright span {
@@ -766,10 +784,6 @@ footer p {
   padding: 20px 0px;
 }
 
-.tag span {
-  font-weight: bolder;
-}
-
 .share {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -793,7 +807,7 @@ footer p {
 }
 
 .testimonialText {
-  background-color: #cbcbcb;
+  background-color: #F6F6F6;
   margin-left: 25px;
   padding: 25px;
 }
@@ -801,6 +815,7 @@ footer p {
 .testimonialText p:nth-of-type(1) {
   font-weight: bolder;
   padding-bottom: 10px;
+  font-family: "Raleway", sans-serif;
 }
 
 .relatedPost {
@@ -811,6 +826,7 @@ footer p {
 .relatedPost p {
   padding: 25px 0px;
   font-weight: bolder;
+  font-family: "Raleway", sans-serif;
 }
 
 .blogFlex {
@@ -837,6 +853,7 @@ figure img {
 
 figcaption:nth-of-type(1) {
   font-weight: bolder;
+  font-family: "Raleway", sans-serif;
 }
 
 figcaption:nth-of-type(2) {
@@ -851,6 +868,9 @@ figcaption:nth-of-type(2) {
 .commentHeader {
   padding: 25px 0px;
   font-weight: bolder;
+}
+.commentHeader p {
+  font-family: "Raleway", sans-serif;
 }
 
 .comment {
@@ -893,6 +913,7 @@ figcaption:nth-of-type(2) {
 .blogName, .blogEmail, .blogWebsite {
   width: calc(100% / 3 - 16px);
   border: #999999 1px solid;
+  border-radius: 2px;
   padding: 5px 10px;
 }
 
@@ -906,6 +927,7 @@ figcaption:nth-of-type(2) {
   padding: 5px 10px;
   margin-top: 10px;
   border: #999999 1px solid;
+  border-radius: 2px;
 }
 
 .blogForm button {
@@ -995,7 +1017,6 @@ figcaption:nth-of-type(2) {
 .contactDetails {
   background: #F6F6F6;
   width: 40%;
-  height: 100%;
 }
 
 .contactBox1 {
@@ -1064,11 +1085,23 @@ figcaption:nth-of-type(2) {
   height: 65vh;
 }
 
+@media (max-width: 1395px) {
+  .fullBleedBottomText {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+}
 @media (max-width: 1200px) {
   .fullBleedBottomText {
     width: calc(50% - 40px);
     height: calc(50% - 40px);
     margin: 20px;
+  }
+  .fullBleedBottomText h3 {
+    font-size: 15px;
+  }
+  .fullBleedBottomText p {
+    font-size: 12px;
   }
 
   .imgLogo {
@@ -1076,7 +1109,7 @@ figcaption:nth-of-type(2) {
     left: 300px;
   }
 }
-@media (max-width: 965px) {
+@media (max-width: 1142px) {
   .fullBleedTop {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1120,7 +1153,14 @@ figcaption:nth-of-type(2) {
         -ms-flex-order: -1;
             order: -1;
   }
-
+  .fullBleedBottomText h3 {
+    font-size: 20px;
+  }
+  .fullBleedBottomText p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 965px) {
   .imgLogo {
     bottom: 210px;
     left: 390px;
@@ -1131,7 +1171,7 @@ figcaption:nth-of-type(2) {
   }
 
   .shopTextBox {
-    width: 100%;
+    width: 80%;
   }
 
   .footerAddress {
@@ -1202,13 +1242,13 @@ figcaption:nth-of-type(2) {
     display: none;
   }
 
-  .topNav:hover .fa-bars {
+  .topNav:hover .fa-bars, .topNav:focus .fa-bars {
     display: inline-block;
     font-size: 50px;
     margin-right: 50px;
     position: relative;
   }
-  .topNav:hover ul {
+  .topNav:hover ul, .topNav:focus ul {
     display: inline-block;
     position: absolute;
     overflow: hidden;
@@ -1216,15 +1256,19 @@ figcaption:nth-of-type(2) {
     top: 90px;
     text-align: center;
   }
-  .topNav:hover li {
+  .topNav:hover li, .topNav:focus li {
     background-color: #2e2e2e;
     padding: 10px;
+    color: #64a604;
   }
-  .topNav:hover a {
+  .topNav:hover li:hover, .topNav:hover li:focus, .topNav:focus li:hover, .topNav:focus li:focus {
+    background-color: #DDED9A;
+  }
+  .topNav:hover a, .topNav:focus a {
     color: #f6f6f6;
     padding: 10px;
   }
-  .topNav:hover a:hover {
+  .topNav:hover a:hover, .topNav:hover a:focus, .topNav:focus a:hover, .topNav:focus a:focus {
     color: #64a604;
   }
 
@@ -1285,7 +1329,7 @@ figcaption:nth-of-type(2) {
     padding-top: 225px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 583px) {
   .fullBleedTopText {
     padding: 50px 10px;
   }
