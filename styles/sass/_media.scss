@@ -233,14 +233,14 @@
     }
     .shopTextBox {
         padding: 75px 0px;
-        width: 100%;
+        width: 95%;
     }
     .quoteLeft {
         right: 5px;
     }
     .quoteRight {
-        top: 250px;
-        left: 5px;
+        top: 230px;
+        left: 0px;
     }
     .footerAddress {
         width: 75%;
@@ -317,6 +317,22 @@
     }
 }
 
+@media (max-width: 450px) {
+    .shopTextBox {
+        width: 90%;
+    }
+    .quoteLeft {
+        left: -5px;
+    }
+    .quoteRight {
+        top: 280px;
+    }
+    .imgLogo {
+        bottom: 130px;
+        left: 105px;
+    }
+}
+
 @media (max-width: 320px) {
     h1 {
         font-size: 30px;
@@ -371,9 +387,12 @@
         bottom: 120px;
         left: 100px;
     }
+    .quoteLeft {
+        right: -10px;
+    }
     .quoteRight {
-        top: 420px;
-        left: 5px;
+        top: 400px;
+        left: -10px;
     }
     .inputBox {
         flex-direction: column;

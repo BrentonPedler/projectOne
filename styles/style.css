@@ -763,7 +763,7 @@ footer p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 60vh;
 }
 
 .blog {
@@ -945,7 +945,7 @@ figcaption:nth-of-type(2) {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 60vh;
 }
 
 .contact {
@@ -1356,7 +1356,7 @@ figcaption:nth-of-type(2) {
 
   .shopTextBox {
     padding: 75px 0px;
-    width: 100%;
+    width: 95%;
   }
 
   .quoteLeft {
@@ -1364,8 +1364,8 @@ figcaption:nth-of-type(2) {
   }
 
   .quoteRight {
-    top: 250px;
-    left: 5px;
+    top: 230px;
+    left: 0px;
   }
 
   .footerAddress {
@@ -1474,6 +1474,24 @@ figcaption:nth-of-type(2) {
     margin: 0;
   }
 }
+@media (max-width: 450px) {
+  .shopTextBox {
+    width: 90%;
+  }
+
+  .quoteLeft {
+    left: -5px;
+  }
+
+  .quoteRight {
+    top: 280px;
+  }
+
+  .imgLogo {
+    bottom: 130px;
+    left: 105px;
+  }
+}
 @media (max-width: 320px) {
   h1 {
     font-size: 30px;
@@ -1536,9 +1554,13 @@ figcaption:nth-of-type(2) {
     left: 100px;
   }
 
+  .quoteLeft {
+    right: -10px;
+  }
+
   .quoteRight {
-    top: 420px;
-    left: 5px;
+    top: 400px;
+    left: -10px;
   }
 
   .inputBox {
