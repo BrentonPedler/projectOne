@@ -32,9 +32,6 @@ blogForm.addEventListener('submit', function (e) {
 
     }
 
-
-
-
 });
 
 
