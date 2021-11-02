@@ -205,16 +205,16 @@
             <p class="boldText">LEAVE A COMMENT</p>
             <p>Your email will not be published. Required fields are marked *</p>
 
-            <form class="blogForm" action="">
+            <form id= "blogForm" class="blogForm" action="">
                 <label class="srOnly" for="name"></label>
-                <input class="blogName" type="text" name="name" placeholder="Name *" required="true">
+                <input class="blogName" id="name" type="text" name="name" placeholder="Name *">
                 <label class="srOnly" for="email"></label>
-                <input class="blogEmail" type="email" name="email" placeholder="Email *" required="true">
+                <input class="blogEmail" id="email" type="email" name="email" placeholder="Email *">
                 <label class="srOnly" for="text"></label>
                 <input class="blogWebsite" type="text" name="website" placeholder="Your Website" id="website">
                 <label class="sr Only" for="comments"></label>
                 <textarea class="blogTextArea" name="comments" id="comments" placeholder="Comment" cols="" rows="" style="resize: none;"></textarea>
-                <button type="submit">SUBMIT COMMENT</button>
+                <button id="button" type="submit">SUBMIT COMMENT</button>
             </form>
 
         </div>
@@ -274,6 +274,8 @@
     </footer>
 
     <!-- END OF FOOTER -->
+
+    <script src="./js/script.js"></script>
 
 </body>
 
