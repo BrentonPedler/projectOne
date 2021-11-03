@@ -1,14 +1,15 @@
-// Adding Form Validation to blog form
+// Adding post Validation to contact form
+
+// Will alert if missing required fields
 
 // Accessing form (DOM)
 
-const blogForm = document.getElementById('blogForm');
-
-
+const mainContact = document.getElementById('mainContact');
 
 // Create "submit" event
 
-blogForm.addEventListener('submit', function (e) {
+mainContact.addEventListener('submit', function (e) {
+    e.preventDefault();
     
     // Create Variable for NAME / EMAIL field (required)
     
@@ -32,7 +33,32 @@ blogForm.addEventListener('submit', function (e) {
 
     }
 
+    function successfulSubmit () {
+
+        const contactResponse = document.getElementById('contactResponse');
+        
+
+        mainContact.style.display = 'none';
+
+        contactResponse.style.display = 'block';
+
+        contactResponse.innerHTML = `<p>Thank you, we will contact you shortly</p>`;
+
+    }
+
+    successfulSubmit();
+
+    
 });
+
+ 
+
+
+
+
+
+
+
 
 
 

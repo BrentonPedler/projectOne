@@ -964,6 +964,13 @@ figcaption:nth-of-type(2) {
   padding-bottom: 50px;
 }
 
+.contactResponse {
+  width: 60%;
+  margin-left: 15%;
+  padding-bottom: 50px;
+  display: none;
+}
+
 .contactForm p {
   color: #333333;
   font-family: "Raleway", sans-serif;

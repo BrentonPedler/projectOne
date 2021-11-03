@@ -17,8 +17,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/style.css">
-    <title>DELICIOUS CONTACT</title>
-</head>
+        <title>DELICIOUS CONTACT</title>
+    </head>
 
 <body>
 
@@ -60,12 +60,13 @@
         <div class="contactForm">
 
             <p>DROP US A LINE</p>
-
-            <form action="">
+            <div id="contactResponse" class="contactResponse">
+            </div>
+            <form id="mainContact" class="mainContact" action="">
                 <label class="srOnly" for="name"></label>
-                <input class="contactName" type="text" name="name" placeholder="Your Name" required="true">
+                <input id="name" class="contactName" type="text" name="name" placeholder="Your Name">
                 <label class="srOnly" for="email"></label>
-                <input class="contactEmail" type="email" name="email" placeholder="Your Email" required="true">
+                <input id="email" class="contactEmail" type="email" name="email" placeholder="Your Email">
                 <label class="srOnly" for="text"></label>
                 <input class="contactSubject" type="text" name="subject" placeholder="Subject" id="subject">
                 <label class="srOnly" for="message"></label>
@@ -165,7 +166,7 @@
     
     </footer>
 
-    <script></script>
+    <script src="./js/script.js"></script>
 
 </body>
 
