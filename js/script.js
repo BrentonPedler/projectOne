@@ -24,31 +24,31 @@ mainContact.addEventListener('submit', function (e) {
     if (nameData == '') {
 
         alert('Name Input Required');
-
+        return;
     }
 
     if (emailData == '') {
 
         alert('Email Input Required');
-
+        return;
     }
 
     function successfulSubmit () {
 
         const contactResponse = document.getElementById('contactResponse');
         
-
         mainContact.style.display = 'none';
 
         contactResponse.style.display = 'block';
-
-        contactResponse.innerHTML = `<p>Thank you, we will contact you shortly</p>`;
+        
+        contactResponse.innerHTML = `<p>Thank you, we will contact you shortly.</p>`;
 
     }
-
-    successfulSubmit();
-
     
+    setTimeout(function () {
+        successfulSubmit();
+    }, 500);
+
 });
 
  
